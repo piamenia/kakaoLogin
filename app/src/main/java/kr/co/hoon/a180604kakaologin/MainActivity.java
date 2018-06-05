@@ -96,8 +96,8 @@ public class MainActivity extends AppCompatActivity {
                 UserManagement.requestLogout(new LogoutResponseCallback() {
                     @Override
                     public void onCompleteLogout() {
-                        Toast.makeText(MainActivity.this, "로그아웃 되었습니다.",Toast.LENGTH_LONG).show();
-                        Log.e("로그아웃", "됐음");
+                        // Toast.makeText(MainActivity.this, "로그아웃 되었습니다.",Toast.LENGTH_LONG).show();
+                        // Log.e("로그아웃", "됐음");
                     }
                 });
             }
