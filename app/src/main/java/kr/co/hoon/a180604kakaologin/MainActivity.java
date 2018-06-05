@@ -23,6 +23,8 @@ import com.kakao.util.exception.KakaoException;
 import java.security.MessageDigest;
 
 public class MainActivity extends AppCompatActivity {
+    // 깃허브에서 가져온 프로젝트에 수정하면 버전컨트롤에 표시됨
+
     // 안드로이드 키해시를 로그로 출력하는 메소드
     // 키해시: 안드로이드 앱마다 별도로 생성되는 ID 같은 개념
     private void getHashKey(){
